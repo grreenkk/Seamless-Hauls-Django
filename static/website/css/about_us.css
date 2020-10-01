@@ -21,7 +21,7 @@ body {
     flex-direction: row;
     height: 90px;
     padding: 0 40px;
-    background-color: #043E64;
+    background-image: linear-gradient(to left bottom, #321fff, #0050ff, #006dff, #0085fd, #3a99f0);
     padding-bottom: 13rem;
 }
 
@@ -71,29 +71,35 @@ header .menu li a {
 .inner-container {
     width: 55%;
     float: right;
-    background-color: #fdfdfd;
+    background-image: linear-gradient(to left bottom, #321fff, #0050ff, #006dff, #0085fd, #3a99f0);
     padding: 80px;
+    font-family: 'Montserrat' sans-serif;
 }
 
 .inner-container h1 {
     margin-bottom: 2px;
     font-size: 30px;
-    font-weight: 900;
+    font-weight: 500;
+    font-family: 'Montserrat' sans-serif;
+    color: #fdfdfd;
 }
 
 .text {
-    font-size: 20px;
-    color: #545454;
+    font-size: 15px;
+    color: #fdfdfd;
     line-height: 20px;
     text-align: justify;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
+
+
 
 .skills {
     display: flex;
     justify-content: space-between;
     font-weight: 700;
     font-size: 13px;
+    color: white;
 }
 
 

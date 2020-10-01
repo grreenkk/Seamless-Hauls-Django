@@ -21,7 +21,7 @@ def contact(request):
             'Service Request', # subject
             message, # message
             message_email, # from email
-            ['greenakawushim@gmail.com'], # To Email
+            ['seamlesshauls@gmail.com'], # To Email
             )
 
         return render(request, 'contact_us2.html', {'message_name': message_name})

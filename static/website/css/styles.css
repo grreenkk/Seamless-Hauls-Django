@@ -130,6 +130,7 @@ header:after {
     font-weight: 600;
     font-size: .9rem;
     margin-left: 6.5em;
+    z-index: 1
 }
 
 .action-btn {
